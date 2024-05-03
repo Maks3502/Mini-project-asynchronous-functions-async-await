@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.user-list {
+    margin-top: 20px;
+}
+
+.user {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.user h3 {
+    margin-top: 0;
+}
+
+.user p {
+    margin: 5px 0;
+}
+
+.user button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.user button:hover {
+    background-color: #0056b3;
+}
+#createUserButton {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#createUserButton:hover {
+    background-color: #218838;
+}
+
